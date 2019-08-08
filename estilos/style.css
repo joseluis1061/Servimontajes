@@ -1,3 +1,8 @@
 body{
     font-family: 'Times New Roman', Times, serif;
 }
+
+.cabecera {
+    height: 100px;
+    background: black;
+}
