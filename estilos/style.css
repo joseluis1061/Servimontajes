@@ -2,7 +2,13 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.cabecera {
-    height: 100px;
-    background: black;
+
+
+#cabecera a{
+    color: white;   
+    text-decoration: none; 
+}
+
+#cabecera nav{
+    background: gray;
 }
