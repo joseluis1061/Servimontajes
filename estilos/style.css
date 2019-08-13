@@ -1,3 +1,30 @@
 body{
     font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+#proyectos{
+    position: relative;
+    border: 1px solid rebeccapurple;
+
+}
+
+aside{
+   position: absolute;
+   float: right;
+   border: 1px solid orange;
+}
+
+article{
+    position: absolute;
+    float: right; 
+    border: 1px solid green;
+}
+
+.noticias figure img{
+    width: 500px;
+    height: 500px;
 }
