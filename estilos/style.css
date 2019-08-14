@@ -1,30 +1,43 @@
 body{
+    background: #e6e6e6;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
 .clear{
     clear: both;
+    overflow: hidden;
+    display: block;
 }
-#proyectos{
+.wrapper{
+    border: 1px skyblue solid;
     position: relative;
-    border: 1px solid rebeccapurple;
+}
 
+.main{
+    border: 1px sandybrown solid;
+    width: 70%;
+    float: left;
+}
+
+.proyecto{
+    border: 1px gold solid;
+}
+.proyecto figure{
+    margin: auto;
+    border: 1px blue solid;
+    width: 600px;
+    height: 300px;
+}
+
+.proyecto figure img{
+    width: 100%;
+    height:100%;
+    border: 1px red solid;
 }
 
 aside{
-   position: absolute;
-   float: right;
-   border: 1px solid orange;
-}
-
-article{
-    position: absolute;
-    float: right; 
-    border: 1px solid green;
-}
-
-.noticias figure img{
-    width: 500px;
-    height: 500px;
+    border: 1px darkolivegreen solid;
+    width: 29%;
+    float: right;
 }

@@ -9,7 +9,7 @@
     
 </head>
 <body>
-    
+<!-- Seccion del encabezado -->
     <header id="cabecera">
         <div id="logo">
             <figure>
@@ -31,6 +31,7 @@
         </nav>
     </header>
 
+<!-- Seccion de carrusel -->
     <section id="hero">
         <div class="carrusel">
             <figure>
@@ -43,30 +44,10 @@
         </div>
     </section>
 
-    <main id="proyectos">
-        <aside class="catalogos">
-            <div>
-                <h2>Soluciones aplicadas</h2>
-                <ul>
-                    <li><a href="">Solución 1</a></li>
-                    <li><a href="">Solución 2</a></li>
-                    <li><a href="">Solución 3</a></li>
-                    <li><a href="">Solución 4</a></li>
-                </ul>                
-            </div>
-
-            <div>
-                <h2>Catalogo de productos</h2>
-                <ul>
-                    <li><a href="">Producto 1</a></li>
-                    <li><a href="">Producto 2</a></li>
-                    <li><a href="">Producto 3</a></li>
-                    <li><a href="">Producto 4</a></li>
-                </ul>
-            </div>
-        </aside>
-        <article class="ejecutados">
-            <div class="noticias">
+<!-- Seccion principal -->
+    <section class="wrapper">
+        <section class="main">
+            <article class="proyecto">
                 <h2>Servicios mecánico</h2>
                 <p>It is a long established fact that a reader will be distracted by the 
                     readable content of a page when looking at its layout. The point of using 
@@ -80,8 +61,8 @@
                 <figure>
                     <img src="images/mecanica.jpg" alt="mecanica">
                 </figure>
-            </div>
-            <div class="noticias">
+            </article>
+            <article class="proyecto">
                 <h2>Servicios eléctrico</h2>
                 <p>It is a long established fact that a reader will be distracted by the 
                     readable content of a page when looking at its layout. The point of using 
@@ -95,8 +76,8 @@
                 <figure>
                     <img src="images/electrica.jpg" alt="mecanica">
                 </figure>
-            </div>
-            <div class="noticias">
+            </article>
+            <article class="proyecto">
                 <h2>Servicios de montaje</h2>
                 <p>It is a long established fact that a reader will be distracted by the 
                     readable content of a page when looking at its layout. The point of using 
@@ -108,31 +89,54 @@
                     sometimes on purpose (injected humour and the like).
                 </p>
                 <figure>
-                    <img src="images/montajes.jpg" alt="mecanica">
+                    <img src="images/montajes.JPG" alt="montajes">
                 </figure>
-            </div>
-        </article>
-    </main>
+            </article>
+        </section>
+        <aside class="catalogos">
+                <div>
+                    <h2>Soluciones aplicadas</h2>
+                    <ul>
+                        <li><a href="">Solución 1</a></li>
+                        <li><a href="">Solución 2</a></li>
+                        <li><a href="">Solución 3</a></li>
+                        <li><a href="">Solución 4</a></li>
+                    </ul>                
+                </div>
+    
+                <div>
+                    <h2>Catalogo de productos</h2>
+                    <ul>
+                        <li><a href="">Producto 1</a></li>
+                        <li><a href="">Producto 2</a></li>
+                        <li><a href="">Producto 3</a></li>
+                        <li><a href="">Producto 4</a></li>
+                    </ul>
+                </div>
+        </aside>
+    </section>
 
-    <footer id="footer">
-        <div class="contactenos">
+<!-- Sección de pie de pagina -->
+    <footer id="footer" class="clear">
+        <section class="contactenos">
             <ul>
                 <li><a href="">Dirección</a></li>
                 <li><a href="">Telefono</a></li>
                 <li><a href="">Donde encontrarnos</a></li>
-            </ul>            
+            </ul>
+        </section>            
         </div>
-        <div class="mensaje">
+        <section class="mensaje">
             <form action="/correo/">
                 <h2>Escribenos</h2>
                 <input type="text" placeholder="Dejanos tus comentarios">
                 <input type="text" placeholder="correo@correo.com">
                 <button>Enviar</button>
             </form>
-        </div>
-        <div class="copyright">
+        </section>
+        <section class="copyright">
             <p>Pagina hecha por PixelesWeb</p>
-        </div>
+        </section>
     </footer>
 </body>
 </html>
