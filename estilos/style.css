@@ -4,11 +4,55 @@ body{
 
 
 
-#cabecera a{
+#cabecera{
     color: white;   
     text-decoration: none; 
+    display: flex;
+    display:-ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #07081F;
+    height: 80px;  
 }
 
-#cabecera nav{
-    background: gray;
+#logo{
+    background-color: white;
+}
+
+.logo{
+    height: 60px;
+}
+.logo img{
+    height: 100%;
+}
+
+#Navegacion{
+    height: inherit;         
+}
+
+#Navegacion ul{
+    margin: 0;
+    padding: 0;
+    height: inherit; 
+    display: flex;    
+}
+
+#Navegacion ul li{
+    list-style: none;
+    height: inherit;      
+}
+
+#Navegacion ul li a{
+    color: white;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    text-decoration: none;
+    margin: 0px 20px 0px 20px;
+}
+
+#Navegacion ul li a:hover{
+    color: #8586A9;
+    text-decoration: underline;
 }
